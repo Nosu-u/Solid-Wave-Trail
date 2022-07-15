@@ -12,6 +12,7 @@ class $modify(HardStreak) {
 class $modify(PlayerObject) {
 	void update(float c) {
 		auto thing = getBlendFunc();
+		
 		if (m_waveTrail) {
 			m_waveTrail->setBlendFunc(thing); // removes the blending of it
 		}
