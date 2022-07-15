@@ -8,7 +8,6 @@ project(SolidWaveTrail VERSION 1.0.0)
 file(GLOB SOURCES
 	src/*.cpp
 )
-
 add_library(${PROJECT_NAME} SHARED main.cpp)
 set_target_properties(${PROJECT_NAME} PROPERTIES PREFIX "")
 
