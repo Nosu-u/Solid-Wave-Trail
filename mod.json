@@ -1,0 +1,15 @@
+{
+	"geode": "v0.1.0",
+	"version": "v1.0.0",
+	"id": "com.nosu.solidwavetrail",
+	"name": "SolidWaveTrail",
+	"developer": "Nosu",
+	"description": "makes the wave trail a solid color",
+	"binary": "SolidWaveTrail",
+	"dependencies": [
+		{
+			"id": "com.geode.api",
+			"required": true
+		}
+	]
+}
