@@ -3,8 +3,9 @@
 using namespace cocos2d;
 
 class $modify(HardStreak) {
-	  void updateStroke(float b) { // modify the wave trail when it updates (always)
+	void updateStroke(float b) { // modifies the wave trail every frame
 		m_isSolid = true; // makes it be a one color
+		
 		HardStreak::updateStroke(b);
 	}
 };
