@@ -1,6 +1,7 @@
-#include <Geode.hpp>
+#include <Geode/Geode.hpp>
+#include <Geode/Modify.hpp>
 
-using namespace cocos2d;
+USE_GEODE_NAMESPACE();
 
 class $modify(HardStreak) {
 	void updateStroke(float b) { // modifies the wave trail every frame

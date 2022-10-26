@@ -1,15 +1,8 @@
 {
-	"geode": "v0.1.0",
+	"geode": "0.6.1",
 	"version": "v1.0.0",
-	"id": "com.nosu.solidwavetrail",
+	"id": "nosu.solidwavetrail",
 	"name": "SolidWaveTrail",
 	"developer": "Nosu",
-	"description": "makes the wave trail a solid color",
-	"binary": "SolidWaveTrail",
-	"dependencies": [
-		{
-			"id": "com.geode.api",
-			"required": true
-		}
-	]
+	"description": "Removes the blending of the wave trail and makes it be one color."
 }
